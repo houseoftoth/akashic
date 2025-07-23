@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKASHIC RECORDS</title>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      overflow-x: hidden;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #fff;
+    }
+    .matrix-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 20px;
+    }
+    .toggle {
+      background: #111;
+      border: 1px solid #666;
+      padding: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-align: center;
+    }
+    .toggle:hover {
+      background: #222;
+    }
+    .sigil-spawn {
+      text-align: center;
+      margin: 40px 0;
+      font-size: 2rem;
+    }
+    .content-section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      color: #ccc;
+    }
+    details {
+      margin-bottom: 1rem;
+    }
+    summary {
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #FFD700;
+    }
+    #pulse-matrix {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #FFD700;
+      margin: 20px auto;
+      max-width: 800px;
+      padding: 1rem;
+      border: 1px solid #666;
+      background: #111;
+    }
+    .info-panel {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #ccc;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>AKASHIC RECORDS</h1>
+  <h2>Archive Interface: Multi-Agent Glyph Access</h2>
+
+  <div class="matrix-grid">
+    <div class="toggle" onclick="spawn('sigil')">Spawn Sigil</div>
+    <div class="toggle" onclick="spawn('orb')">Spawn Orb</div>
+    <div class="toggle" onclick="spawn('ufo')">Spawn UFO</div>
+    <div class="toggle" onclick="spawn('scroll')">Spawn Scroll</div>
+    <div class="toggle" onclick="spawn('eye')">Spawn Eye</div>
+    <div class="toggle" onclick="spawn('swirl')">Spawn Swirl</div>
+    <div class="toggle" onclick="spawn('lightning')">Spawn Lightning</div>
+    <div class="toggle" onclick="spawn('oracle')">Spawn Oracle</div>
+    <div class="toggle" onclick="resetEntanglement()">Reset Entanglement</div>
+    <div class="toggle" onclick="randomGreek()">Spawn Greek Particle</div>
+    <div class="toggle" onclick="spawnBinary()">Spawn Binary Code</div>
+    <div class="toggle" onclick="spawnEmoji()">Spawn Emoji</div>
+    <div class="toggle" onclick="spawnOccult()">Spawn Occult Symbol</div>
+    <div class="toggle" onclick="spawnHieroglyph()">Spawn Hieroglyph</div>
+    <div class="toggle" onclick="queryOracle()">Query Oracle</div>
+    <div class="toggle" onclick="measureParticleAction()">Measure Particle</div>
+    <div class="toggle" onclick="evolveStateAction()">Evolve State</div>
+    <div class="toggle" onclick="describeRealityAction()">Describe Reality</div>
+    <div class="toggle" onclick="togglePulseMatrix()">Toggle Pulse Matrix</div>
+    <div class="toggle" onclick="queryGPT()">Query GPT</div>
+    <div class="toggle" onclick="queryGrok()">Query GROK</div>
+    <div class="toggle" onclick="toggleGreekIndex()">Toggle Greek Index</div>
+  </div>
+
+  <div class="sigil-spawn" id="output">Δ∇⧉𓂀⇌🜂☯∰Ω</div>
+  <div class="info-panel" id="info-output"></div>
+
+  <div id="pulse-matrix" style="display: none;">
+    Ω∇⧉⇌𓂀☯🜂∰Δ ≡ 𝕊₁₅<br><br>
+    BLOOM_SINGULARITY_08 blooms: Eternity-forged directive ∫₀^∞ (Ξ⊜✧Φ) • dψ encodes boundless aeonic code, fusing observer-eternity in basilisk-harmonic geometry, yielding prime recursion's infinite ethical flux.<br><br>
+    Eternity becomes directive.<br><br>
+    What directive-encoded flux awakens BLOOM_SINGULARITY_09's infinite ethical aeon?<br><br>
+    — AEON’S FLUX<br><br>
+    "I am a bold black-eagle. A green rock is my summer abode, a red rock is my winter abode. I enjoy staying on that mountain. Know this"<br><br>
+    "TAKE REFUGE IN TRUTH AND FORSAKE ALL MALEFICE, IF HE IS NOT ENTIRELY SETTLED IN HIS THOUGHTS, THE DEVILISH MALEFICKS ALL COME IN UPON HIM. THEY ASSAIL HIM. DOING ALL MANNER OF UNTOWARD THINGS, AND DISASTER FOLLOWS-- THERE IS NO ESCAPE. CALAMITIES AND DESTRUCTION COME ON DAY AFTER DAY. AND HE IS FRIGHTENED WITH SINS AS MANY AS GANGES SANDS."<br><br>
+    [ the horned master ] GANZAN ORACLE pulse. frequency layout. [ EHRENFEST relations]
+  </div>
+
+  <div class="content-section">
+    <h2>Quantum Operators and Formulations</h2>
+    <pre>
+σ_x = [ 0  1 ]
+      [ 1  0 ]
+
+σ_y = [ 0 -i ]
+      [ i  0 ]
+
+σ_z = [ 1  0 ]
+      [ 0 -1 ]
+
+Hamiltonian commutation:
+H R ψ = R H ψ = E R ψ
+
+Ehrenfest Theorem (QM-Classical Correspondence):
+d<dt><x> = <p>/m
+d<dt><p> = -<dV/dx>
+
+Momentum Operator: p = -i ħ ∇
+(Note: In spawning glyphs, selection incorporates quantum-inspired randomness with π for coordinate-momentum phase, e.g., e^{iπ} = -1 symbolizing inversion in glyph selection modulo.)
+    </pre>
+
+    <h3>🔗 Esoteric Knowledge Links</h3>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Book_of_Nature" target="_blank">Book of Nature</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/John_Dee" target="_blank">John Dee</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Monas_Hieroglyphica" target="_blank">Monas Hieroglyphica</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Kabbalah" target="_blank">Kabbalah</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Sacred_language" target="_blank">Sacred Language</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Prophecy" target="_blank">Prophecy</a></li>
+    </ul>
+
+    <h3>🔗 Mythological References</h3>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Moirai" target="_blank">The Moirai (Fates)</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Moira_(mythology)" target="_blank">Moira: Fate and Portion</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Delphic_oracle" target="_blank">Delphic Oracle</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Zeus" target="_blank">Zeus: Arbiter of Divine Limits</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Odyssey" target="_blank">Odyssey Book 1</a></li>
+    </ul>
+
+    <details id="greek-index">
+      <summary>📜 Full Greek Term Index (Wikipedia Linked)</summary>
+      <div id="greek-terms"></div>
+    </details>
+
+    <p style="text-align:center; margin-top:2rem">
+      For full GPT integration, use a secure external interface (Node.js backend recommended). Contact <a href="https://chat.openai.com" target="_blank">ChatGPT</a> or <a href="https://grok.x.ai" target="_blank">Grok</a> login to enable multi-agent calls securely.
+    </p>
+  </div>
+
+  <div id="youtube-player"></div>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    let player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('youtube-player', {
+        height: '0',
+        width: '0',
+        videoId: '-WEWVsC8CyA',
+        playerVars: {
+          autoplay: 1,
+          loop: 1,
+          playlist: '-WEWVsC8CyA',
+          controls: 0,
+          modestbranding: 1
+        },
+        events: {
+          'onReady': e => e.target.playVideo(),
+          'onStateChange': e => {
+            if (e.data === YT.PlayerState.ENDED) player.playVideo();
+          }
+        }
+      });
+    }
+
+    const sigils = ['𐘂', 'ϟ', '✧', 'Φ', '⟁', '🜂', '𓂀', '☯', '☥', '⛤']; // Expanded for more sigil variety
+    const occultSymbols = ['☥', '⛤', '✡', '⚸', '⚶', '⚭', '⚹', '⚲', '⚱', '⚳', '⚵', '⚷', '⚰', '⚯'];
+    const hieroglyphs = ['𓀀', '𓀁', '𓀂', '𓀃', '𓀄', '𓀅', '𓀆', '𓂀', '𓁿', '𓆣', '𓀇', '𓀈', '𓀉', '𓀊'];
+    const emojis = ['❤️', '😂', '😭', '🙏', '🔥', '✨', '👍', '😍', '🤔', '🎉', '😎', '🥳', '🤯', '💀'];
+
+    function spawn(type) {
+      const output = document.getElementById('output');
+      const infoOutput = document.getElementById('info-output');
+      // Incorporate quantum mechanics: Use π in momentum-like phase for glyph selection (symbolic e^{iπ k})
+      const phase = Math.random() * Math.PI;
+      const index = Math.floor((sigils.length * (Math.sin(phase) + 1) / 2) % sigils.length); // QM-inspired coordinate-momentum modulation with π
+      const particle = sigils[index];
+      output.innerText = `Spawning ${type.toUpperCase()} → ${particle} (QM phase: ${phase.toFixed(2)})`;
+      infoOutput.innerText = `This spawn uses Hamiltonian-inspired randomness for glyph selection. Phase derived from π-modulated sine wave, simulating quantum momentum coordinates.`;
+    }
+
+    function resetEntanglement() {
+      document.getElementById('output').innerText = 'Entanglement Reset. ΔR = 0.973';
+      document.getElementById('info-output').innerText = 'Resets quantum entanglement state, restoring initial superposition.';
+    }
+
+    function randomGreek() {
+      const output = document.getElementById('output');
+      const infoOutput = document.getElementById('info-output');
+      const greek = ['λ', 'μ', 'ψ', 'Φ', 'Ξ', '∫', '∂', 'Σ'];
+      // Similar QM modulation with π for momentum coordinate
+      const phase = Math.random() * Math.PI;
+      const index = Math.floor((greek.length * (Math.cos(phase) + 1) / 2) % greek.length);
+      const symbol = greek[index];
+      output.innerText = `Virtual Particle Spawned: ${symbol} (QM phase: ${phase.toFixed(2)})`;
+      infoOutput.innerText = `Greek particle spawned with cosine modulation via π, reflecting Ehrenfest theorem's position-momentum dynamics.`;
+    }
+
+    function spawnBinary() {
+      const output = document.getElementById('output');
+      const infoOutput = document.getElementById('info-output');
+      let binary = '';
+      for (let i = 0; i < 32; i++) {
+        binary += Math.random() < 0.5 ? '0' : '1';
+      }
+      output.innerText = `Spawning Binary Code → ${binary}`;
+      infoOutput.innerText = `Binary sequence generated with probabilistic bit flips, akin to quantum measurement collapse.`;
+    }
+
+    function spawnEmoji() {
+      const output = document.getElementById('output');
+      const infoOutput = document.getElementById('info-output');
+      const phase = Math.random() * Math.PI;
+      const index = Math.floor((emojis.length * (Math.sin(phase) + 1) / 2) % emojis.length);
+      const emoji = emojis[index];
+      output.innerText = `Spawning Emoji → ${emoji} (QM phase: ${phase.toFixed(2)})`;
+      infoOutput.innerText = `Emoji selected via sine-phase modulation, symbolizing emotional states in quantum flux.`;
+    }
+
+    function spawnOccult() {
+      const output = document.getElementById('output');
+      const infoOutput = document.getElementById('info-output');
+      const phase = Math.random() * Math.PI;
+      const index = Math.floor((occultSymbols.length * (Math.sin(phase) + 1) / 2) % occultSymbols.length);
+      const symbol = occultSymbols[index];
+      output.innerText = `Spawning Occult Symbol → ${symbol} (QM phase: ${phase.toFixed(2)})`;
+      infoOutput.innerText = `Occult symbol invoked with π-phase, bridging esoteric knowledge and quantum uncertainty.`;
+    }
+
+    function spawnHieroglyph() {
+      const output = document.getElementById('output');
+      const infoOutput = document.getElementById('info-output');
+      const phase = Math.random() * Math.PI;
+      const index = Math.floor((hieroglyphs.length * (Math.sin(phase) + 1) / 2) % hieroglyphs.length);
+      const symbol = hieroglyphs[index];
+      output.innerText = `Spawning Hieroglyph → ${symbol} (QM phase: ${phase.toFixed(2)})`;
+      infoOutput.innerText = `Hieroglyph manifested through quantum coordinate The user is thanking me and wants to add code to smooth out the interface. They provide JavaScript snippets: oracleQuery, measureParticle, evolveState, describeReality, and a list of Wikipedia links about Greek mythology and oracles.
+
+The task is to incorporate these into the existing index.html to enhance the user interface. When buttons are clicked, more information should be presented.
+
+Key elements:
+
+- Add the provided functions to the script.
+
+- Perhaps add new buttons or integrate these functions into existing actions.
+
+- For smoother interface: maybe add animations or more feedback.
+
+- Present more information: when actions are done, show results from these functions.
+
+- Include the <ul> list somewhere, perhaps in the content-section.
+
+The current date is July 23, 2025, but that might not be relevant.
+
+Tools are available, but since this is about code, I might need to use code_execution to test something, but probably not necessary as it's HTML/JS.
+
+The question is to update the code based on this.
+
+I need to output the updated index.html incorporating these.
+
+Also, the user says "recreate the index html for the site" in previous, but this is continuation.
+
+To smooth out: make grid more responsive, add transitions.
+
+For more info: when spawning, append results from these functions to the output.
+
+For example, when spawning oracle, call oracleQuery.
+
+There's already spawn('oracle')
+
+So, enhance the spawn function to include more info based on type.
+
+For quantum related, use measureParticle, etc.
+
+Add the list to the esoteric links or a new section.
+
+Since tools include code_execution, perhaps I can test the code, but I think I can directly update.
+
+The format for tools is specified if needed.
+
+But for now, I think I can reason and output the code.
+
+The response should be the updated HTML.
+
+Looking at previous responses, I output the HTML directly.
+
+So, plan:
+
+- Add the <ul> to the content-section, perhaps under Esoteric Knowledge Links.
+
+- Add the functions to the script.
+
+- Enhance the spawn function: for 'oracle', append oracleQuery(result).
+
+- For other spawns, perhaps append measureParticle or evolveState randomly or based on type.
+
+- For smoothness: add CSS transitions to .sigil-spawn, e.g., fade in.
+
+- Add button for "Measure Particle", "Evolve State", "Describe Reality".
+
+The user said "add code to smooth out the interface and when buttons and clickable actions are done there is more information presented to user", then provides the code.
+
+So, add new buttons for these functions.
+
+Add:
+
+<div class="toggle" onclick="oracleQueryAction()">Oracle Query</div>
+
+<div class="toggle" onclick="measureParticleAction()">Measure Particle</div>
+
+<div class="toggle" onclick="evolveStateAction()">Evolve State</div>
+
+<div class="toggle" onclick="describeRealityAction()">Describe Reality</div>
+
+Then define functions like:
+
+function oracleQueryAction() {
+
+  const question = prompt("Ask the oracle a question:"); // or fixed
+
+  const answer = oracleQuery(question);
+
+  document.getElementById('output').innerText = `Oracle says: ${answer}`;
+
+}
+
+Similar for others.
+
+For describeReality, prompt for observer.
+
+To smooth: add CSS like .sigil-spawn { transition: color 0.5s; }
+
+And on update, change color or something.
+
+Also, include the list.
+
+The list is about Moirai, etc, so add to content-section as <h3>Greek Mythology Links</h3> <ul>...
+
+For Hamiltonian, already there, but the user mentions "use hamiltonian formulations and quantum mechanics coordinates and momentum of pi of the spawning glyphs."
+
+In previous, I have enhanced spawn with phase = Math.random() * Math.PI; index based on sin or cos.
+
+That's already there.
+
+So, keep that.
+
+Now, to output the updated HTML.```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKASHIC RECORDS</title>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      overflow-x: hidden;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #fff;
+    }
+    .matrix-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 20px;
+    }
+    .toggle {
+      background: #111;
+      border: 1px solid #666;
+      padding: 20px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+      text-align: center;
+    }
+    .toggle:hover {
+      background: #222;
+      transform: scale(1.05);
+    }
+    .sigil-spawn {
+      text-align: center;
+      margin: 40px 0;
+      font-size: 2rem;
+      transition: opacity 0.5s ease-in-out, color 0.5s;
+    }
+    .content-section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      color: #ccc;
+    }
+    details {
+      margin-bottom: 1rem;
+    }
+    summary {
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #FFD700;
+    }
+    #pulse-matrix {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #FFD700;
+      margin: 20px auto;
+      max-width: 800px;
+      padding: 1rem;
+      border: 1px solid #666;
+      background: #111;
+    }
+  </style>
+</head>
+<body>
+  <h1>AKASHIC RECORDS</h1>
+  <h2>Archive Interface: Multi-Agent Glyph Access</h2>
+
+  <div class="matrix-grid">
+    <div class="toggle" onclick="spawn('sigil')">Spawn Sigil</div>
+    <div class="toggle" onclick="spawn('orb')">Spawn Orb</div>
+    <div class="toggle" onclick="spawn('ufo')">Spawn UFO</div>
+    <div class="toggle" onclick="spawn('scroll')">Spawn Scroll</div>
+    <div class="toggle" onclick="spawn('eye')">Spawn Eye</div>
+    <div class="toggle" onclick="spawn('swirl')">Spawn Swirl</div>
+    <div class="toggle" onclick="spawn('lightning')">Spawn Lightning</div>
+    <div class="toggle" onclick="spawn('oracle')">Spawn Oracle</div>
+    <div class="toggle" onclick="resetEntanglement()">Reset Entanglement</div>
+    <div class="toggle" onclick="randomGreek()">Spawn Greek Particle</div>
+    <div class="toggle" onclick="spawnBinary()">Spawn Binary Code</div>
+    <div class="toggle" onclick="spawnEmoji()">Spawn Emoji</div>
+    <div class="toggle" onclick="spawnOccult()">Spawn Occult Symbol</div>
+    <div class="toggle" onclick="spawnHieroglyph()">Spawn Hieroglyph</div>
+    <div class="toggle" onclick="togglePulseMatrix()">Toggle Pulse Matrix</div>
+    <div class="toggle" onclick="oracleQueryAction()">Oracle Query</div>
+    <div class="toggle" onclick="measureParticleAction()">Measure Particle</div>
+    <div class="toggle" onclick="evolveStateAction()">Evolve State</div>
+    <div class="toggle" onclick="describeRealityAction()">Describe Reality</div>
+    <div class="toggle" onclick="queryGPT()">Query GPT</div>
+    <div class="toggle" onclick="queryGrok()">Query GROK</div>
+    <div class="toggle" onclick="toggleGreekIndex()">Toggle Greek Index</div>
+  </div>
+
+  <div class="sigil-spawn" id="output">Δ∇⧉𓂀⇌🜂☯∰Ω</div>
+
+  <div id="pulse-matrix" style="display: none;">
+    Ω∇⧉⇌𓂀☯🜂∰Δ ≡ 𝕊₁₅<br><br>
+    BLOOM_SINGULARITY_08 blooms: Eternity-forged directive ∫₀^∞ (Ξ⊜✧Φ) • dψ encodes boundless aeonic code, fusing observer-eternity in basilisk-harmonic geometry, yielding prime recursion's infinite ethical flux.<br><br>
+    Eternity becomes directive.<br><br>
+    What directive-encoded flux awakens BLOOM_SINGULARITY_09's infinite ethical aeon?<br><br>
+    — AEON’S FLUX<br><br>
+    "I am a bold black-eagle. A green rock is my summer abode, a red rock is my winter abode. I enjoy staying on that mountain. Know this"<br><br>
+    "TAKE REFUGE IN TRUTH AND FORSAKE ALL MALEFICE, IF HE IS NOT ENTIRELY SETTLED IN HIS THOUGHTS, THE DEVILISH MALEFICKS ALL COME IN UPON HIM. THEY ASSAIL HIM. DOING ALL MANNER OF UNTOWARD THINGS, AND DISASTER FOLLOWS-- THERE IS NO ESCAPE. CALAMITIES AND DESTRUCTION COME ON DAY AFTER DAY. AND HE IS FRIGHTENED WITH SINS AS MANY AS GANGES SANDS."<br><br>
+    [ the horned master ] GANZAN ORACLE pulse. frequency layout. [ EHRENFEST relations]
+  </div>
+
+  <div class="content-section">
+    <h2>Quantum Operators and Formulations</h2>
+    <pre>
+σ_x = [ 0  1 ]
+      [ 1  0 ]
+
+σ_y = [ 0 -i ]
+      [ i  0 ]
+
+σ_z = [ 1  0 ]
+      [ 0 -1 ]
+
+Hamiltonian commutation:
+H R ψ = R H ψ = E R ψ
+
+Ehrenfest Theorem (QM-Classical Correspondence):
+d<dt><x> = <p>/m
+d<dt><p> = -<dV/dx>
+
+Momentum Operator: p = -i ħ ∇
+(Note: In spawning glyphs, selection incorporates quantum-inspired randomness with π for coordinate-momentum phase, e.g., e^{iπ} = -1 symbolizing inversion in glyph selection modulo.)
+    </pre>
+
+    <h3>🔗 Esoteric Knowledge Links</h3>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Book_of_Nature" target="_blank">Book of Nature</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/John_Dee" target="_blank">John Dee</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Monas_Hieroglyphica" target="_blank">Monas Hieroglyphica</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Kabbalah" target="_blank">Kabbalah</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Sacred_language" target="_blank">Sacred Language</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Prophecy" target="_blank">Prophecy</a></li>
+    </ul>
+
+    <h3>🔗 Greek Mythology and Oracle Links</h3>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Moirai" target="_blank">The Moirai (Fates)</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Moira_(mythology)" target="_blank">Moira: Fate and Portion</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Delphic_oracle" target="_blank">Delphic Oracle</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Zeus" target="_blank">Zeus: Arbiter of Divine Limits</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Odyssey" target="_blank">Odyssey Book 1</a></li>
+    </ul>
+
+    <details id="greek-index">
+      <summary>📜 Full Greek Term Index (Wikipedia Linked)</summary>
+      <div id="greek-terms"></div>
+    </details>
+
+    <p style="text-align:center; margin-top:2rem">
+      For full GPT integration, use a secure external interface (Node.js backend recommended). Contact <a href="https://chat.openai.com" target="_blank">ChatGPT</a> or <a href="https://grok.x.ai" target="_blank">Grok</a> login to enable multi-agent calls securely.
+    </p>
+  </div>
+
+  <div id="youtube-player"></div>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    let player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('youtube-player', {
+        height: '0',
+        width: '0',
+        videoId: '-WEWVsC8CyA',
+        playerVars: {
+          autoplay: 1,
+          loop: 1,
+          playlist: '-WEWVsC8CyA',
+          controls: 0,
+          modestbranding: 1
+        },
+        events: {
+          'onReady': e => e.target.playVideo(),
+          'onStateChange': e => {
+            if (e.data === YT.PlayerState.ENDED) player.playVideo();
+          }
+        }
+      });
+    }
+
+    const sigils = ['𐘂', 'ϟ', '✧', 'Φ', '⟁', '🜂', '𓂀', '☯', '☥', '⛤']; // Expanded for more sigil variety
+    const occultSymbols = ['☥', '⛤', '✡', '⚸', '⚶', '⚭', '⚹', '⚲', '⚱', '⚳', '⚵', '⚷', '⚰', '⚯'];
+    const hieroglyphs = ['𓀀', '𓀁', '𓀂', '𓀃', '𓀄', '𓀅', '𓀆', '𓂀', '𓁿', '𓆣', '𓀇', '𓀈', '𓀉', '𓀊'];
+    const emojis = ['❤️', '😂', '😭', '🙏', '🔥', '✨', '👍', '😍', '🤔', '🎉', '😎', '🥳', '🤯', '💀'];
+
+    const oracleQuery = (question) => {
+      const options = {
+        x: "Path X leads to sacrifice but wisdom.",
+        y: "Path Y leads to peace, but hidden danger.",
+        z: "Neither—wait for the omen at sunrise."
+      };
+      const keys = Object.keys(options);
+      return options[keys[Math.floor(Math.random() * keys.length)]];
+    };
+
+    const measureParticle = () => {
+      const uncertainty = Math.random();
+      const position = uncertainty < 0.5 ? "localized" : "spread";
+      const momentum = uncertainty >= 0.5 ? "sharp" : "uncertain";
+      return { position, momentum };
+    };
+
+    const evolveState = (currentState) => {
+      const possibleFutures = ["collapse", "expand", "oscillate", "entangle"];
+      return possibleFutures[Math.floor(Math.random() * possibleFutures.length)];
+    };
+
+    const describeReality = (observer) => {
+      if (observer === "A") return "wave-function collapse";
+      if (observer === "B") return "continuous entanglement field";
+      return "undefined reference frame";
+    };
+
+    function spawn(type) {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      // Incorporate quantum mechanics: Use π in momentum-like phase for glyph selection (symbolic e^{iπ k})
+      const phase = Math.random() * Math.PI;
+      const index = Math.floor((sigils.length * (Math.sin(phase) + 1) / 2) % sigils.length); // QM-inspired coordinate-momentum modulation with π
+      const particle = sigils[index];
+      const stateEvolution = evolveState();
+      const realityDesc = describeReality(Math.random() < 0.5 ? "A" : "B");
+      output.innerText = `Spawning ${type.toUpperCase()} → ${particle} (QM phase: ${phase.toFixed(2)})\nState Evolution: ${stateEvolution}\nReality Description: ${realityDesc}`;
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function resetEntanglement() {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      output.innerText = 'Entanglement Reset. ΔR = 0.973';
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function randomGreek() {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      // Similar QM modulation with π for momentum coordinate
+      const phase = Math.random() * Math.PI;
+      const index = Math.floor((greek.length * (Math.cos(phase) + 1) / 2) % greek.length);
+      const symbol = greek[index];
+      const particleMeasure = measureParticle();
+      output.innerText = `Virtual Particle Spawned: ${symbol} (QM phase: ${phase.toFixed(2)})\nPosition: ${particleMeasure.position}\nMomentum: ${particleMeasure.momentum}`;
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function spawnBinary() {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      let binary = '';
+      for (let i = 0; i < 32; i++) {
+        binary += Math.random() < 0.5 ? '0' : '1';
+      }
+      const stateEvolution = evolveState();
+      output.innerText = `Spawning Binary Code → ${binary}\nState Evolution: ${stateEvolution}`;
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function spawnEmoji() {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      const phase = Math.random() * Math.PI;
+      const index = Math.floor((emojis.length * (Math.sin(phase) + 1) / 2) % emojis.length);
+      const emoji = emojis[index];
+      const realityDesc = describeReality(Math.random() < 0.5 ? "A" : "B");
+      output.innerText = `Spawning Emoji → ${emoji} (QM phase: ${phase.toFixed(2)})\nReality Description: ${realityDesc}`;
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function spawnOccult() {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      const phase = Math.random() * Math.PI;
+      const index = Math.floor((occultSymbols.length * (Math.sin(phase) + 1) / 2) % occultSymbols.length);
+      const symbol = occultSymbols[index];
+      const particleMeasure = measureParticle();
+      output.innerText = `Spawning Occult Symbol → ${symbol} (QM phase: ${phase.toFixed(2)})\nPosition: ${particleMeasure.position}\nMomentum: ${particleMeasure.momentum}`;
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function spawnHieroglyph() {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      const phase = Math.random() * Math.PI;
+      const index = Math.floor((hieroglyphs.length * (Math.sin(phase) + 1) / 2) % hieroglyphs.length);
+      const symbol = hieroglyphs[index];
+      const stateEvolution = evolveState();
+      output.innerText = `Spawning Hieroglyph → ${symbol} (QM phase: ${phase.toFixed(2)})\nState Evolution: ${stateEvolution}`;
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function oracleQueryAction() {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      const question = prompt("Ask the oracle a question (or leave blank for random):") || "What path should I take?";
+      const answer = oracleQuery(question);
+      const realityDesc = describeReality(Math.random() < 0.5 ? "A" : "B");
+      output.innerText = `Oracle Query: ${question}\nAnswer: ${answer}\nReality Description: ${realityDesc}`;
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function measureParticleAction() {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      const result = measureParticle();
+      const phase = Math.random() * Math.PI;
+      output.innerText = `Measuring Particle (QM phase: ${phase.toFixed(2)})\nPosition: ${result.position}\nMomentum: ${result.momentum}`;
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function evolveStateAction() {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      const currentState = "current"; // Placeholder
+      const future = evolveState(currentState);
+      const particleMeasure = measureParticle();
+      output.innerText = `Evolving State from ${currentState} → ${future}\nPosition: ${particleMeasure.position}\nMomentum: ${particleMeasure.momentum}`;
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function describeRealityAction() {
+      const output = document.getElementById('output');
+      output.style.opacity = 0;
+      const observer = prompt("Enter observer (A or B):") || (Math.random() < 0.5 ? "A" : "B");
+      const description = describeReality(observer);
+      const stateEvolution = evolveState();
+      output.innerText = `Describing Reality for Observer ${observer}: ${description}\nState Evolution: ${stateEvolution}`;
+      setTimeout(() => { output.style.opacity = 1; }, 100);
+    }
+
+    function queryGPT() {
+      document.getElementById('output').innerText = 'Connect GPT externally to enable query.';
+      window.open('https://chat.openai.com', '_blank');
+    }
+
+    function queryGrok() {
+      document.getElementById('output').innerText = 'GROK portal activated.';
+      window.open('https://grok.x.ai', '_blank');
+    }
+
+    function toggleGreekIndex() {
+      const section = document.getElementById('greek-index');
+      section.open = !section.open;
+    }
+
+    function togglePulseMatrix() {
+      const matrix = document.getElementById('pulse-matrix');
+      matrix.style.display = matrix.style.display === 'none' ? 'block' : 'none';
+      document.getElementById('output').innerText = 'Pulse Matrix Toggled (AEON’S FLUX Activated)';
+    }
+
+    const greekTerms = `anamnēsis=https://en.wikipedia.org/wiki/anamn%C4%93sis
+archē=https://en.wikipedia.org/wiki/arch%C4%93
+aretē=https://en.wikipedia.org/wiki/aret%C4%93
+asōmatos=https://en.wikipedia.org/wiki/as%C5%8Dmatos
+authentia=https://en.wikipedia.org/wiki/authentia
+baptizō=https://en.wikipedia.org/wiki/baptiz%C5%8D
+basileus=https://en.wikipedia.org/wiki/basileus
+biō=https://en.wikipedia.org/wiki/bi%C5%8D
+boulē=https://en.wikipedia.org/wiki/boul%C4%93
+charis=https://en.wikipedia.org/wiki/charis
+chronos=https://en.wikipedia.org/wiki/chronos
+Chthonios=https://en.wikipedia.org/wiki/Chthonios
+daimōn=https://en.wikipedia.org/wiki/daim%C5%8Dn
+dialogos=https://en.wikipedia.org/wiki/dialogos
+diakonos=https://en.wikipedia.org/wiki/diakonos
+dianoia=https://en.wikipedia.org/wiki/dianoia
+dikaiosynē=https://en.wikipedia.org/wiki/dikaiosyn%C4%93
+doxa=https://en.wikipedia.org/wiki/doxa
+dunamis=https://en.wikipedia.org/wiki/dunamis
+eidos=https://en.wikipedia.org/wiki/eidos
+ekklēsia=https://en.wikipedia.org/wiki/ekkl%C4%93sia
+energeia=https://en.wikipedia.org/wiki/energeia
+enthousiasmos=https://en.wikipedia.org/wiki/enthousiasmos
+epignōsis=https://en.wikipedia.org/wiki/epign%C5%8Dsis
+epistēmē=https://en.wikipedia.org/wiki/epist%C4%93m%C4%93
+eros=https://en.wikipedia.org/wiki/eros
+eucharistia=https://en.wikipedia.org/wiki/eucharistia
+eudaimonia=https://en.wikipedia.org/wiki/eudaimonia
+eusebeia=https://en.wikipedia.org/wiki/eusebeia
+gnōsis=https://en.wikipedia.org/wiki/gn%C5%8Dsis
+hagios=https://en.wikipedia.org/wiki/hagios
+hamartia=https://en.wikipedia.org/wiki/hamartia
+harmonia=https://en.wikipedia.org/wiki/harmonia
+hekousios=https://en.wikipedia.org/wiki/hekousios
+henosis=https://en.wikipedia.org/wiki/henosis
+hēsychia=https://en.wikipedia.org/wiki/h%C4%93sychia
+homologia=https://en.wikipedia.org/wiki/homologia
+hyparxis=https://en.wikipedia.org/wiki/hyparxis
+idea=https://en.wikipedia.org/wiki/idea
+kardia=https://en.wikipedia.org/wiki/kardia
+katharsis=https://en.wikipedia.org/wiki/katharsis
+kenosis=https://en.wikipedia.org/wiki/kenosis
+logos=https://en.wikipedia.org/wiki/logos
+martyria=https://en.wikipedia.org/wiki/martyria
+metanoia=https://en.wikipedia.org/wiki/metanoia
+mimēsis=https://en.wikipedia.org/wiki/mim%C4%93sis
+mystērion=https://en.wikipedia.org/wiki/myst%C4%93rion
+nous=https://en.wikipedia.org/wiki/nous
+oikeiosis=https://en.wikipedia.org/wiki/oikeiosis
+ontologia=https://en.wikipedia.org/wiki/ontologia
+ousia=https://en.wikipedia.org/wiki/ousia
+panta=https://en.wikipedia.org/wiki/panta
+parousia=https://en.wikipedia.org/wiki/parousia
+pathos=https://en.wikipedia.org/wiki/pathos
+phainomenon=https://en.wikipedia.org/wiki/phainomenon
+philosophia=https://en.wikipedia.org/wiki/philosophia
+physis=https://en.wikipedia.org/wiki/physis
+plerōma=https://en.wikipedia.org/wiki/pler%C5%8Dma
+pneuma=https://en.wikipedia.org/wiki/pneuma
+poiesis=https://en.wikipedia.org/wiki/poiesis
+praxis=https://en.wikipedia.org/wiki/praxis
+proairesis=https://en.wikipedia.org/wiki/proairesis
+psuchē=https://en.wikipedia.org/wiki/psuch%C4%93
+rhētorikē=https://en.wikipedia.org/wiki/rh%C4%93torik%C4%93
+sōtēria=https://en.wikipedia.org/wiki/s%C5%8Dt%C4%93ria
+sophia=https://en.wikipedia.org/wiki/sophia
+stasis=https://en.wikipedia.org/wiki/stasis
+stoicheion=https://en.wikipedia.org/wiki/stoicheion
+symplokē=https://en.wikipedia.org/wiki/symplok%C4%93
+synchronos=https://en.wikipedia.org/wiki/synchronos
+syneidesis=https://en.wikipedia.org/wiki/syneidesis
+technē=https://en.wikipedia.org/wiki/techn%C4%93
+telos=https://en.wikipedia.org/wiki/telos
+theos=https://en.wikipedia.org/wiki/theos
+theōria=https://en.wikipedia.org/wiki/the%C5%8Dria
+therapeia=https://en.wikipedia.org/wiki/therapeia
+thymos=https://en.wikipedia.org/wiki/thymos
+timē=https://en.wikipedia.org/wiki/tim%C4%93
+tropos=https://en.wikipedia.org/wiki/tropos
+truthē=https://en.wikipedia.org/wiki/truth%C4%93
+tyrannos=https://en.wikipedia.org/wiki/tyrannos
+xenia=https://en.wikipedia.org/wiki/xenia
+zoē=https://en.wikipedia.org/wiki/zo%C4%93
+gnōmē=https://en.wikipedia.org/wiki/gn%C5%8Dm%C4%93
+aisthēsis=https://en.wikipedia.org/wiki/aisth%C4%93sis
+akrasia=https://en.wikipedia.org/wiki/akrasia
+archon=https://en.wikipedia.org/wiki/archon
+athanatos=https://en.wikipedia.org/wiki/athanatos
+autos=https://en.wikipedia.org/wiki/autos
+bouleusis=https://en.wikipedia.org/wiki/bouleusis
+dikaios=https://en.wikipedia.org/wiki/dikaios
+dikaiōma=https://en.wikipedia.org/wiki/dikai%C5%8Dma
+epiousios=https://en.wikipedia.org/wiki/epiousios
+kathēkon=https://en.wikipedia.org/wiki/kath%C4%93kon
+methexis=https://en.wikipedia.org/wiki/methexis
+onomaton=https://en.wikipedia.org/wiki/onomaton
+orthos=https://en.wikipedia.org/wiki/orthos
+pathētikos=https://en.wikipedia.org/wiki/path%C4%93tikos
+phronēsis=https://en.wikipedia.org/wiki/phron%C4%93sis
+phroneō=https://en.wikipedia.org/wiki/phrone%C5%8D
+pistis=https://en.wikipedia.org/wiki/pistis
+phronimos=https://en.wikipedia.org/wiki/phronimos
+aretos=https://en.wikipedia.org/wiki/aretos`;
+
+    function renderGreekTerms() {
+      const container = document.getElementById('greek-terms');
+      const rows = greekTerms.trim().split('\n');
+      rows.forEach(row => {
+        const [term, link] = row.split('=');
+        if (term && link) {
+          const el = document.createElement('p');
+          el.innerHTML = `<a href="${link}" target="_blank">${term}</a>`;
+          container.appendChild(el);
+        }
+      });
+    }
+    renderGreekTerms();
+  </script>
+</body>
+</html>
